@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Lean-1
+name: Lienol
 
 on:
   release:
@@ -22,9 +22,9 @@ on:
     types: started
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/Lienol/lean-lede
   REPO_BRANCH: master
-  CONFIG_FILE: lean.config
+  CONFIG_FILE: Lienol.config
   DIY_SH: diy.sh
   SSH_ACTIONS: true
   UPLOAD_BIN_DIR: false
